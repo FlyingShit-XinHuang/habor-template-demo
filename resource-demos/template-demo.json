@@ -1,0 +1,9 @@
+{
+  "messageTemplateName": "Updated Sample SMS Template",
+  "messageTemplateDescription": "Template to provide an example on whispir.io",
+  "subject" : "Test SMS Message",
+  "body" : "This is the body of my test SMS message",
+  "email" : {},
+  "voice" : {},
+  "web" : {}
+}
