@@ -12,10 +12,11 @@ Then just build as following:
 make
 ```
 
+Or you can run this demo with Docker without Golang installation. See [here](#docker) for more details.
+
 ## Run
 
 API key, user name and password are needed before you can run this demo. 
-Or you can run this demo with Docker without Golang. See [here](#docker) for more details.
 
 ### Get help
 
