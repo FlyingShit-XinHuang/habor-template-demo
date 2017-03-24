@@ -15,7 +15,7 @@ make
 ## Run
 
 API key, user name and password are needed before you can run this demo. 
-Or you can run this demo with Docker without Golang. See [here](#Docker) for more details.
+Or you can run this demo with Docker without Golang. See [here](#docker) for more details.
 
 ### Get help
 
