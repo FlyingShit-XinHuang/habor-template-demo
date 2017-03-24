@@ -14,7 +14,8 @@ make
 
 ## Run
 
-API key, user name and password are needed before you can run this demo.
+API key, user name and password are needed before you can run this demo. 
+Or you can run this demo with Docker without Golang. See [here](#Docker) for more details.
 
 ### Get help
 
@@ -197,4 +198,20 @@ You can send messages with a template. Just specify desitination and the templat
 ```
 $ ./demo send -k=<your API key> -u=<your user name> -p=<your password> -w=3986158A11F9166B "+8613811112222" A00A0E9DD994E4B9
 Message info: https://api.whispir.com/workspaces/3986158A11F9166B/messages/86CF7CCE99C5D1086E4B9A8EAA95685D?apikey=bvtaqrzveu86gpz8khd66gm7
+```
+
+## Docker
+
+With the help of Docker, we can wrap the build and running environments into images without installing them. 
+If the Docker has been already installed in your environment, you can build an image of this demo:
+
+```
+make docker-build
+```
+
+A local image named "demo" is available after that. Then you can run this demo as following:
+
+```
+$  docker run demo create -k=<your API key> -u=<your user name> -p=<your password> -w=3986158A11F9166B --file=resource-demos/template-demo.json
+Create successfully
 ```
